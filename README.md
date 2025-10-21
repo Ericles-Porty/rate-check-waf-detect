@@ -44,7 +44,7 @@ pip install requests
 Exemplo básico
 
 python rate_check_waf_detect.py \
-  --url "https://seu-servidor/ResumoVisualizar?NrSolicitacao=123" \
+  --url "https://seu-servidor/" \
   --start 10 \
   --min 0.5 \
   --factor 0.95 \
